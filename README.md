@@ -152,3 +152,15 @@ dados corretos de host, usuário e senha.
  bash
  CopiarEditar
  java -cp ".;lib/mysql-connector-j-9.2.0.jar;bin" SistemaAcademia
+
+ Como executar o código no terminal:
+
+ quando alterar o codigo
+ javac -cp ".;..\lib\mysql-connector-j-9.2.0.jar" .java conexao/.java DAO/.java entity/.java
+
+rodar programa
+
+testa a conexao 
+java -cp ".;..\lib\mysql-connector-j-9.2.0.jar" conexao.TestaConexao
+executa o codigo
+java -cp ".;..\lib\mysql-connector-j-9.2.0.jar" SistemaAcademia.java 

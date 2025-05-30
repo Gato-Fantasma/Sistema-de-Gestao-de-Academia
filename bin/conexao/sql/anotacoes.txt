@@ -1,0 +1,11 @@
+Passo a passo pra estalar o drive no terminal e atualizar codigo ou se quer executar:
+
+1😎 ir para pasta correta
+cd C:\Users\lucas\Downloads\ProjetoAcademia\src> 
+
+2🤖 quando alterar o codigo
+javac -cp ".;..\lib\mysql-connector-j-9.2.0.jar" *.java conexao/*.java DAO/*.java entity/*.java
+
+3🤡 rodar programa
+java -cp ".;..\lib\mysql-connector-j-9.2.0.jar" conexao.TestaConexao //testa a conexao 
+java -cp ".;..\lib\mysql-connector-j-9.2.0.jar" SistemaAcademia.java //executa o codigo
